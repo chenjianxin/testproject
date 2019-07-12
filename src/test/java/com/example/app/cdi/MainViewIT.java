@@ -1,4 +1,4 @@
-package com.vaadin.starter.skeleton.cdi;
+package com.example.app.cdi;
 
 import org.junit.Assert;
 import org.junit.Test;

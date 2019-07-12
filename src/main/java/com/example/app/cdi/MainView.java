@@ -1,4 +1,4 @@
-package com.vaadin.starter.skeleton.cdi;
+package com.example.app.cdi;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
@@ -13,7 +13,7 @@ import javax.inject.Inject;
  */
 @Route("")
 @PWA(name = "Project Base for Vaadin Flow with CDI", shortName = "Project Base")
-public class MainView extends VerticalLayout {
+public  class  MainView extends VerticalLayout {
 
     @Inject
     private MessageBean messageBean;
